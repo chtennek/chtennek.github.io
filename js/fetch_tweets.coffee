@@ -15,3 +15,4 @@ for [baseline, user] in inputs
 				console.log err
 				return
 			console.log reply['statuses_count'] - baseline, baseline, user
+			$('#' + user).text (reply['statuses_count'] - baseline) + ' ' + user
