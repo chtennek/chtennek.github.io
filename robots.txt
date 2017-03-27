@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://chtennek.github.io/sitemap.xml 
